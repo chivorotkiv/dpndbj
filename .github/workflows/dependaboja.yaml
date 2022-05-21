@@ -19,3 +19,4 @@ jobs:
         uses: evoja/dependaboja@DEP-13
         with:
           merge_type: merge
+          create_aggregated_branches_if_missed: false
