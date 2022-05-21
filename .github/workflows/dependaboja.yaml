@@ -20,3 +20,4 @@ jobs:
         with:
           merge_type: merge
           create_aggregated_branches_if_missed: false
+
