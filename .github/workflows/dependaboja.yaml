@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Git repository
         uses: actions/checkout@v2
       - name: Dependaboja
-        uses: evoja/dependaboja@DEP-10
+        uses: evoja/dependaboja@DEP-13
         with:
           merge_type: merge
 
