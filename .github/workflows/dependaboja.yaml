@@ -18,5 +18,5 @@ jobs:
       - name: Dependaboja
         uses: evoja/dependaboja@DEP-13
         with:
-          merge_type: rebase
+          merge_type: squash
           create_aggregated_branches_if_missed: true
