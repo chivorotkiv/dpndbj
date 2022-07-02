@@ -19,5 +19,5 @@ jobs:
         uses: evoja/dependaboja@DEP-13-chiv
         with:
           merge_type: rebase
-          create_aggregated_branches_if_missed: false
+          create_aggregated_branches_if_missed: true
 
