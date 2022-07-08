@@ -16,9 +16,12 @@ jobs:
       - name: Checkout Git repository
         uses: actions/checkout@v2
       - name: Dependaboja
-        uses: evoja/dependaboja@DEP-11
+        uses: evoja/dependaboja@DEP-16
         with:
           merge_type: squash
           create_aggregated_branches_if_missed: true
+      - name: View Git
+        run: |
+          git log --graph --pretty=oneline --all
 
 
